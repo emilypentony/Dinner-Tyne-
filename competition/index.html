@@ -1,17 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
+
+
 <head>
-  <title>titleformywebsite</title>
-  <script src "the link to jquery"></script>
+    <title>Dinner Tyne</title>
+    <script src="jquery/jquery-2.2.0.min.js"></script>
+	<link href="css/style.css" rel="stylesheet">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<meta name="viewport"content="width=device-width,initial-scale=1.0">
+	<script>
+	$(function() {
+    $( "input[type=submit], a, button" )
+      .button()
+      .click(function( event ) {
+        event.preventDefault();
+      });
+     </script>
+</head>
 
-  <link href= "link to bootstrap" rel="stylesheet">
-  </head>
 
-  <body>
-  <h1> this is my website</h1>
-  <div>
-    <p> this is my content</p>
-   </div>
-   </body>
- <html> 
+	<div class="container header">
+	
+      <h1 class="containe head"> DINNER TYNE </h1>
+      <h2 class="containter head"> Best Places To Eat In Newcastle</h2>
+     </div>
+	
+	<div class="container linklist">
+	  <ul >
+		<a href=""><li> Northern Grub </li></a>
+		<a href=""><li> Ultimate Hangover Cure </li> </a>
+		<a href=""><li> Cheap Eats </li></a>
+		<a href=""><li> Clean Living </li> </a>
+		<a href=""><li> When the parents visit </li> </a>
+	   </ul>
+    </div>
+
+
+	<div>
+		<p> Student review site for the best independent eats in Newcastle! </p>
+	</div>
+	
+	<div class="logos">
+	<h1> Top Rated </h1>
+	<img class="fathippo" img src="https://pbs.twimg.com/profile_images/696055180039712769/MweBaZ7I_400x400.jpg"/>
+	<img class="redhouse" img src="http://www.theredhousencl.co.uk/wp-content/themes/redhouse/images/redhouse-logo-round.png"/>
+	<img class="nakeddeli" img src="https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xfl1/v/t1.0-9/10301174_1374465742840595_387649121605904035_n.jpg?oh=52aceec41a53b7f35e343f9aaa2dae9d&oe=57613E08"/>
+	<img class="1901" img src ="http://s3-media1.fl.yelpcdn.com/bphoto/ud_cplD1Civ2D67Tj_AAVw/ls.jpg"/>
+    <img class="quayingredient" img src ="http://2.bp.blogspot.com/-PbS0aJlx6Ro/Ume2UT80v-I/AAAAAAAAAuw/eQ4EMbhc_Qc/s1600/Quay+Ingredient+exterior.tiff"/>
+	<img class= "dabbawal" img src="http://www.dabbawal.com/wp-content/themes/dabbawal-theme/images/slider-logo.png"/>
+	<img class="herbgarden" img src="http://www.designbyrobots.co.uk/img/blocks/the-herb-garden.jpg"/>
+	
+</div>
+
+
+<input type="Rate Your Favourite Restaurant" id="rate" value ="Rate Your Favourite Restaurant"/>
+ 
+
+<a href ="#" onMouseOver="return changeImage()"> <img name ="jsbutton" src="http://thenextweb.com/wp-content/blogs.dir/1/files/2010/07/bright_yellow_star.png" width="200" height="100" border="10" alt="javascript button"/> </a>
+
+
+
+
+</body>
+<style>
+
+
+
+
+
+</style>
+<script type="text/javascript">
+	$('h1').css('black', 'black');
+</script>
+</html>
+
